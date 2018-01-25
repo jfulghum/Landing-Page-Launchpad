@@ -66,3 +66,124 @@ header {
 /* 
  * YOUR CSS:
  */
+
+/* 
+ 
+
+ .flex-item {
+  flex-direction: column;
+}
+
+#para{
+  flex-basis: 60%;
+}
+
+# */
+
+
+/* .container {
+  display: flex;
+} */
+/* 
+#about p {
+  flex: 3;
+}
+#about #aboutmockup {
+  flex: 2;
+  align-self: flex-end;
+} */
+
+#abtheader{
+  flex: 1
+}
+#phonepara {
+  display: flex;
+  margin: 15px;
+}
+
+#paragraph {
+  flex: 2;
+  
+}
+#aboutmockup{
+  flex:1
+}
+
+
+#staff > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ 
+ .staff-profile {
+   flex-basis: 33%;
+   text-align: center;
+   margin: 10;
+  }
+
+ .headshot, .staff-name, .staff-bio{
+  justify-content: center;
+  padding: 6px;
+  align-items: center;
+  text-align: center;
+  
+ }
+
+ .headshot {
+   font-size: 50px;
+
+ }
+ .staff-bio{
+   font-style: italic;
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom: 20px;
+ }
+
+ .staff-name {
+   font-size: 32px;
+ }
+
+ /* #navheader > div, nav {
+  display: flex;
+  justify-content: flex-end
+ } */
+
+ header {
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 15px 15px;
+
+ }
+ #navheader > div, nav{
+  display: flex;
+  flex-basis: 70%;
+}
+ 
+ .logo{
+  align-items: flex-start;
+  font-size: 15px;
+  width:15%;
+ }
+
+ nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ .nav-item{
+   
+   font-size: 32px;
+   text-align: center;
+   width: 20%;
+
+  }
+
+  a:link,:visited,:hover{
+    color: white;
+  }
